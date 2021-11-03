@@ -1,0 +1,124 @@
+{
+  "overrides": [
+    {
+      "appliesTo": [
+        "Windows"
+      ],
+      "overrideType": "AllowUntil",
+      "validUntil": "2021-07-30T19:33:16.3304135+00:00",
+      "lastModified": "2021-07-30T19:33:16.3304135+00:00",
+      "devices": [
+        {
+          "deviceId": "g:6896160675819159",
+          "deviceName": "sanketsttest",
+          "deviceClass": "Windows.Desktop",
+          "deviceFormFactor": "PC",
+          "osName": "Windows",
+          "osVersion": "10.0.19042.1288",
+          "lastSeenOn": "2021-10-20T23:23:14Z",
+          "isOSVersionOutdated": false,
+          "timeUsed": 0,
+          "states": [
+            {
+              "firstDetectedOn": null,
+              "lastDetectedOn": "0001-01-01T00:00:00",
+              "type": "MSASignedIn",
+              "stateValue": true
+            },
+            {
+              "firstDetectedOn": "2021-10-19T15:30:42.3327742",
+              "lastDetectedOn": "2021-10-19T15:30:42.3327742",
+              "type": "AccountTypeIsStandardUser",
+              "stateValue": false
+            },
+            {
+              "firstDetectedOn": "2021-10-20T23:23:14Z",
+              "lastDetectedOn": "2021-10-20T23:23:14Z",
+              "type": "WindowsVersionSupportsAppLimits",
+              "stateValue": true
+            },
+            {
+              "firstDetectedOn": "2021-10-20T23:23:14Z",
+              "lastDetectedOn": "2021-10-20T23:23:14Z",
+              "type": "WindowsVersionSupportsAppBlocking",
+              "stateValue": true
+            }
+          ],
+          "issues": [
+            {
+              "id": "77FDD3AA0FA889F5",
+              "type": "MemberIsAdmin",
+              "firstDetectedOn": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "appliesTo": [
+        "Xbox"
+      ],
+      "overrideType": "AllowUntil",
+      "validUntil": "2021-07-30T19:33:16.3304135+00:00",
+      "lastModified": "2021-07-30T20:19:22.3304135+00:00",
+      "devices": [
+        {
+          "deviceId": "g:6966505676034715",
+          "deviceName": "XBOXONE",
+          "deviceClass": "Windows.Xbox",
+          "deviceFormFactor": "Console",
+          "osName": "Windows",
+          "osVersion": "10.0.22000.2285",
+          "lastSeenOn": "2021-10-20T23:23:28Z",
+          "isOSVersionOutdated": false,
+          "timeUsed": 0,
+          "states": [
+            {
+              "firstDetectedOn": "2021-10-19T15:01:43.3949059",
+              "lastDetectedOn": "2021-10-19T15:30:20.279752",
+              "type": "AccountTypeIsStandardUser",
+              "stateValue": true
+            },
+            {
+              "firstDetectedOn": "2021-10-20T23:23:28Z",
+              "lastDetectedOn": "2021-10-20T23:23:28Z",
+              "type": "WindowsVersionSupportsAppLimits",
+              "stateValue": true
+            },
+            {
+              "firstDetectedOn": "2021-10-20T23:23:28Z",
+              "lastDetectedOn": "2021-10-20T23:23:28Z",
+              "type": "WindowsVersionSupportsAppBlocking",
+              "stateValue": true
+            }
+          ],
+          "issues": []
+        }
+      ]
+    }
+  ],
+  "actions": {
+    "create": {
+      "allow": [
+        "Windows",
+        "Mobile",
+        "Xbox",
+        "AllDevices"
+      ],
+      "block": [
+        "Windows",
+        "Mobile",
+        "Xbox",
+        "AllDevices"
+      ]
+    },
+    "cancel": {
+      "target": [
+        "Windows",
+        "Mobile",
+        "Xbox",
+        "AllDevices"
+      ]
+    }
+  }
+}
